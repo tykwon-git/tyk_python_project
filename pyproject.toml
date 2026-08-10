@@ -1,0 +1,19 @@
+[project]
+name = "tyk-python-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "tykwon", email = "aawwcc0625@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=3.0.5",
+]
+
+[project.scripts]
+tyk-python-project = "tyk_python_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
