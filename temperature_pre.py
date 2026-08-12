@@ -1,8 +1,7 @@
 import pandas as pd
 
-# 경로
-# temper_csv_path = r'C:\Users\SBA\Desktop\tyk_python_project\data\OBS_ASOS_TIM_20260810140632.csv'
-temper_csv_path = r'C:\Users\SBA\Desktop\tyk_python_project\data\OBS_ASOS_TIM_20260812143952.csv'
+# path
+temper_csv_path = r'data\OBS_ASOS_TIM_20260812143952.csv'
 
 # 대상 월
 target_months = [3, 6, 9, 12]

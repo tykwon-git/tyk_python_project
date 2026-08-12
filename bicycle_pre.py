@@ -1,7 +1,7 @@
 import pandas as pd
 
-# 경로
-bicycle_csv_path = r'C:\Users\SBA\Desktop\tyk_python_project\data\서울특별시 공공자전거 대여이력 정보_2025\서울특별시 공공자전거 대여이력 정보_25'
+# path
+bicycle_csv_path = r'data\서울특별시 공공자전거 대여이력 정보_2025\서울특별시 공공자전거 대여이력 정보_25'
 # 대상 월
 target_months = [3, 6, 9, 12]
 

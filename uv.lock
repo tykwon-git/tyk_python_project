@@ -341,6 +341,18 @@ wheels = [
 ]
 
 [[package]]
+name = "koreanize-matplotlib"
+version = "0.1.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/9b/7b/56c3ec7f9fcf806bbe46f5ed4f3966222faf7891279751c8384d6200eab9/koreanize-matplotlib-0.1.1.tar.gz", hash = "sha256:0930075aac18aab8bc871fc76134776b8bc240bd1cd2acfc00ebd3713323c444", size = 7926102, upload-time = "2022-12-27T09:02:35.257Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ef/91/93f56a4526d2dbead44250d9166d97568c2ce051c90eaa4be36788d59131/koreanize_matplotlib-0.1.1-py3-none-any.whl", hash = "sha256:4f563db1a75d9eb6bdb667a435adf8a5daf7e41504486f1b0fb1c20e4bfed4ca", size = 7945390, upload-time = "2022-12-27T09:02:28.212Z" },
+]
+
+[[package]]
 name = "matplotlib"
 version = "3.11.1"
 source = { registry = "https://pypi.org/simple" }
@@ -700,6 +712,15 @@ wheels = [
 ]
 
 [[package]]
+name = "setuptools"
+version = "84.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/6d/44/f5da03a8ef95d369145c5bb53050e7877c9f3d312e128605fd9504829143/setuptools-84.0.0.tar.gz", hash = "sha256:f4695c21257f0d9b537ec2692c941d02ee143b7cc1276941349a546573b2ef73", size = 1168449, upload-time = "2026-08-08T18:27:58.365Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/95/9c/c510029fc6ef33a6275cd2c5d3cecd6613dfd6aa401d57c54f1c18852ccf/setuptools-84.0.0-py3-none-any.whl", hash = "sha256:51a52592b3b99e102b609654876bd65f19f999935166d1352678931132b0c670", size = 818216, upload-time = "2026-08-08T18:27:56.719Z" },
+]
+
+[[package]]
 name = "six"
 version = "1.17.0"
 source = { registry = "https://pypi.org/simple" }
@@ -755,18 +776,22 @@ source = { editable = "." }
 dependencies = [
     { name = "holidays" },
     { name = "ipykernel" },
+    { name = "koreanize-matplotlib" },
     { name = "matplotlib" },
     { name = "pandas" },
     { name = "seaborn" },
+    { name = "setuptools" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "holidays", specifier = ">=0.102" },
     { name = "ipykernel", specifier = ">=7.3.0" },
+    { name = "koreanize-matplotlib", specifier = ">=0.1.1" },
     { name = "matplotlib", specifier = ">=3.11.1" },
     { name = "pandas", specifier = ">=3.0.5" },
     { name = "seaborn", specifier = ">=0.13.2" },
+    { name = "setuptools", specifier = ">=84.0.0" },
 ]
 
 [[package]]

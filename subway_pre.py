@@ -1,7 +1,7 @@
 import pandas as pd
 
-# 경로
-subway_csv_path = r'C:\Users\SBA\Desktop\tyk_python_project\data\2025서울교통공사_역별 일별 시간대별 승하차인원_20251231.csv'
+# path
+subway_csv_path = r'data\2025서울교통공사_역별 일별 시간대별 승하차인원_20251231.csv'
 
 # 대상 월
 target_months = [3, 6, 9, 12]

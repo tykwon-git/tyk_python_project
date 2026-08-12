@@ -2,11 +2,11 @@ import pandas as pd
 import holidays 
 
 # --------------
-# 전처리된 csv read
+# 전처리 끝난 data path
 # --------------
-bicycle_path = r'C:\Users\SBA\Desktop\tyk_python_project\data\processed\bicycle_hourly.csv'
-subway_path = r'C:\Users\SBA\Desktop\tyk_python_project\data\processed\subway_hourly.csv'
-temperature_path = r'C:\Users\SBA\Desktop\tyk_python_project\data\processed\temperature_hourly.csv'
+bicycle_path = r'data\processed\bicycle_hourly.csv'
+subway_path = r'data\processed\subway_hourly.csv'
+temperature_path = r'data\processed\temperature_hourly.csv'
 
 bicycle = pd.read_csv(bicycle_path,encoding='utf-8-sig')
 subway = pd.read_csv(subway_path,encoding='utf-8-sig')
