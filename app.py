@@ -9,7 +9,7 @@ import streamlit as st
 from scipy.stats import rankdata
 
 # ============================================================
-# 기온에 따른 서울시 따릉이·지하철 이용 분석 Dashboard
+# 기온에 따른 서울시 따릉이·지하철 이용 분석 Dashboard patch 05:04
 # ============================================================
 
 st.set_page_config(
