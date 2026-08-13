@@ -7,13 +7,19 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/
 
-
-# Data files (csv...)
+# Data files
 *.csv
 data/
 *.zip
 
-# Presentation / Image Folders  <-- 추가된 부분
-ppt/
+# Streamlit에 필요한 최종 분석 데이터만 예외
+!data/
+data/*
+!data/processed/
+data/processed/*
+!data/processed/analysis_dataset.csv
+
+# Presentation / Image Folders
+/ppt/
