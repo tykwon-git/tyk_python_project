@@ -14,3 +14,6 @@ wheels/
 *.csv
 data/
 *.zip
+
+# Presentation / Image Folders  <-- 추가된 부분
+ppt/

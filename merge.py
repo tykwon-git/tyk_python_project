@@ -124,5 +124,6 @@ merged['공휴일여부'] = merged['날짜'].dt.date.isin(kr_holidays) # 공휴�
 output_path = r'data\processed\analysis_dataset.csv'
 
 merged = merged.reset_index(drop=True)
-print(f'merged length : {len(merged)}')
-merged.to_csv(output_path,index=False,encoding='utf-8-sig')
+print(merged.head(20))
+# print(f'merged length : {len(merged)}')
+# merged.to_csv(output_path,index=False,encoding='utf-8-sig')
